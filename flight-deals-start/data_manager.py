@@ -6,7 +6,7 @@ flight_data = FlightData()
 class DataManager:
     #This class is responsible for talking to the Google Sheet.
     def __init__(self):
-        bearer_headers = {"Authorization": f"Bearer hharevvx246873"}
+        bearer_headers = {"Authorization": f"Bearer SHETTY AUTHORIZATION KEY"}
         flight_info = flight_data.data_finder("Lagos")
 
         self.url = "https://api.sheety.co/df3797fff716dd2337a79ceb1838a4b2/flightDeals/prices"
