@@ -4,8 +4,8 @@ import requests
 class FlightData:
     #This class is responsible for structuring the flight data.
     def __init__(self):
-        amadeus_api = "LQC9M8AYhKLSmCQSuGh2uTnJ7cOZAHsW"
-        amadeus_secret = "iUoUzUagrNDwxAQq"
+        amadeus_api = "API KEY"
+        amadeus_secret = "SECRET TOKEN"
         amadeus_endpoint = "https://test.api.amadeus.com/v1/security/oauth2/token"
         amadeus_params = {
             "grant_type": "client_credentials",
